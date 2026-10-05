@@ -1,0 +1,1 @@
+{"name":"field-guide-agent","version":"0.2.0","private":true,"type":"module","scripts":{"test":"node --test tests/*.test.mjs","dev:node":"node scripts/dev-server.mjs","eval":"node scripts/eval.mjs","deploy":"wrangler deploy"},"devDependencies":{"wrangler":"4.20.0"}}
