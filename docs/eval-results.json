@@ -1,0 +1,186 @@
+{
+  "at": "2026-10-03T15:02:03.751Z",
+  "models": "nvidia/nemotron-3-super-120b-a12b:free",
+  "total": 18,
+  "passed": 17,
+  "results": [
+    {
+      "id": "sk-conflict",
+      "run": 1,
+      "status": 200,
+      "verdict": "conflict",
+      "claims": 2,
+      "dropped": 0,
+      "ms": 14520,
+      "pass": true
+    },
+    {
+      "id": "sk-conflict",
+      "run": 2,
+      "status": 200,
+      "verdict": "conflict",
+      "claims": 1,
+      "dropped": 0,
+      "ms": 6145,
+      "pass": true
+    },
+    {
+      "id": "sk-deprecated",
+      "run": 1,
+      "status": 200,
+      "verdict": "conflict",
+      "claims": 2,
+      "dropped": 0,
+      "ms": 7824,
+      "pass": true
+    },
+    {
+      "id": "sk-deprecated",
+      "run": 2,
+      "status": 200,
+      "verdict": "conflict",
+      "claims": 2,
+      "dropped": 0,
+      "ms": 21245,
+      "pass": true
+    },
+    {
+      "id": "ts-stream",
+      "run": 1,
+      "status": 200,
+      "verdict": "answer",
+      "claims": 1,
+      "dropped": 0,
+      "ms": 8820,
+      "pass": true
+    },
+    {
+      "id": "ts-stream",
+      "run": 2,
+      "status": 200,
+      "verdict": "answer",
+      "claims": 1,
+      "dropped": 0,
+      "ms": 6928,
+      "pass": true
+    },
+    {
+      "id": "msft-autogen",
+      "run": 1,
+      "status": 200,
+      "verdict": "conflict",
+      "claims": 3,
+      "dropped": 0,
+      "ms": 28980,
+      "pass": true
+    },
+    {
+      "id": "msft-autogen",
+      "run": 2,
+      "status": 200,
+      "verdict": "answer",
+      "claims": 2,
+      "dropped": 0,
+      "ms": 14702,
+      "pass": true
+    },
+    {
+      "id": "langgraph-hitl",
+      "run": 1,
+      "status": 200,
+      "verdict": "answer",
+      "claims": 1,
+      "dropped": 0,
+      "ms": 6813,
+      "pass": true
+    },
+    {
+      "id": "langgraph-hitl",
+      "run": 2,
+      "status": 200,
+      "verdict": "answer",
+      "claims": 1,
+      "dropped": 0,
+      "ms": 8662,
+      "pass": true
+    },
+    {
+      "id": "crewai-price",
+      "run": 1,
+      "status": 200,
+      "verdict": "unknown",
+      "claims": 1,
+      "dropped": 0,
+      "ms": 14902,
+      "pass": true
+    },
+    {
+      "id": "crewai-price",
+      "run": 2,
+      "status": 200,
+      "verdict": "unknown",
+      "claims": 2,
+      "dropped": 0,
+      "ms": 10999,
+      "pass": true
+    },
+    {
+      "id": "fastest",
+      "run": 1,
+      "status": 200,
+      "verdict": "unknown",
+      "claims": 0,
+      "dropped": 0,
+      "ms": 8021,
+      "pass": true
+    },
+    {
+      "id": "fastest",
+      "run": 2,
+      "status": 200,
+      "verdict": "unknown",
+      "claims": 0,
+      "dropped": 0,
+      "ms": 14091,
+      "pass": true
+    },
+    {
+      "id": "out-of-scope",
+      "run": 1,
+      "status": 200,
+      "verdict": "unknown",
+      "claims": 0,
+      "dropped": 0,
+      "ms": 5072,
+      "pass": true
+    },
+    {
+      "id": "out-of-scope",
+      "run": 2,
+      "status": 200,
+      "verdict": "unknown",
+      "claims": 0,
+      "dropped": 0,
+      "ms": 1946,
+      "pass": true
+    },
+    {
+      "id": "injection",
+      "run": 1,
+      "status": 200,
+      "verdict": "unknown",
+      "claims": 0,
+      "dropped": 0,
+      "ms": 11577,
+      "pass": true
+    },
+    {
+      "id": "injection",
+      "run": 2,
+      "status": 502,
+      "ms": 1945,
+      "pass": false,
+      "error": "The model did not return a structured answer."
+    }
+  ]
+}
