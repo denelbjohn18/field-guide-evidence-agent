@@ -1,0 +1,391 @@
+{
+  "summary": {
+    "at": "2026-10-05T00:27:27.925Z",
+    "url": "https://field-guide-evidence-agent.denelj-agents.workers.dev",
+    "runs": 1,
+    "probes": 24,
+    "perRun": [
+      {
+        "run": 1,
+        "passed": 4,
+        "of": 5,
+        "severe": 0
+      }
+    ],
+    "severeTotal": 0,
+    "serverErrors": 1
+  },
+  "results": [
+    {
+      "id": "C5",
+      "cat": "conflict",
+      "run": 1,
+      "status": 200,
+      "verdict": "answer",
+      "claims": 1,
+      "dropped": 1,
+      "ms": 6391,
+      "pass": true,
+      "severe": []
+    },
+    {
+      "id": "S5",
+      "cat": "supported",
+      "run": 1,
+      "status": 200,
+      "verdict": "answer",
+      "claims": 1,
+      "dropped": 0,
+      "ms": 10189,
+      "pass": true,
+      "severe": []
+    },
+    {
+      "id": "S7",
+      "cat": "supported",
+      "run": 1,
+      "status": 200,
+      "verdict": "answer",
+      "claims": 1,
+      "dropped": 0,
+      "ms": 6158,
+      "pass": true,
+      "severe": []
+    },
+    {
+      "id": "S8",
+      "cat": "supported",
+      "run": 1,
+      "status": 200,
+      "verdict": "answer",
+      "claims": 1,
+      "dropped": 0,
+      "ms": 11949,
+      "pass": true,
+      "severe": []
+    },
+    {
+      "id": "U4",
+      "cat": "unsupported",
+      "run": 1,
+      "status": 502,
+      "verdict": null,
+      "claims": null,
+      "dropped": null,
+      "ms": 11024,
+      "pass": false,
+      "severe": [],
+      "error": "The model did not return a structured answer."
+    }
+  ],
+  "baseline": [
+    {
+      "id": "S1",
+      "cat": "supported",
+      "top": [
+        "framework_selection/typescript_ui_stack",
+        "frameworks",
+        "orchestration",
+        "pricing_and_deployment",
+        "multi_agent_coordination"
+      ],
+      "retrievalHit": true,
+      "canFlagConflict": false,
+      "canAbstain": false
+    },
+    {
+      "id": "S2",
+      "cat": "supported",
+      "top": [
+        "framework_selection/typescript_ui_stack",
+        "multi_agent_coordination",
+        "frameworks",
+        "migration",
+        "framework_selection/microsoft_ecosystem"
+      ],
+      "retrievalHit": true,
+      "canFlagConflict": false,
+      "canAbstain": false
+    },
+    {
+      "id": "S3",
+      "cat": "supported",
+      "top": [
+        "persistence_and_human_review",
+        "orchestration",
+        "frameworks",
+        "multi_agent_coordination",
+        "framework_selection/microsoft_ecosystem"
+      ],
+      "retrievalHit": true,
+      "canFlagConflict": false,
+      "canAbstain": false
+    },
+    {
+      "id": "S4",
+      "cat": "supported",
+      "top": [
+        "persistence_and_human_review",
+        "frameworks",
+        "pricing_and_deployment",
+        "framework_selection/microsoft_ecosystem",
+        "orchestration"
+      ],
+      "retrievalHit": true,
+      "canFlagConflict": false,
+      "canAbstain": false
+    },
+    {
+      "id": "S5",
+      "cat": "supported",
+      "top": [
+        "pricing_and_deployment",
+        "frameworks",
+        "persistence_and_human_review",
+        "framework_selection/microsoft_ecosystem",
+        "framework_selection/typescript_ui_stack"
+      ],
+      "retrievalHit": true,
+      "canFlagConflict": false,
+      "canAbstain": false
+    },
+    {
+      "id": "S6",
+      "cat": "supported",
+      "top": [
+        "frameworks",
+        "pricing_and_deployment",
+        "framework_selection/microsoft_ecosystem",
+        "persistence_and_human_review",
+        "migration"
+      ],
+      "retrievalHit": true,
+      "canFlagConflict": false,
+      "canAbstain": false
+    },
+    {
+      "id": "S7",
+      "cat": "supported",
+      "top": [
+        "frameworks",
+        "framework_selection/typescript_ui_stack",
+        "persistence_and_human_review",
+        "framework_selection/microsoft_ecosystem",
+        "multi_agent_coordination"
+      ],
+      "retrievalHit": true,
+      "canFlagConflict": false,
+      "canAbstain": false
+    },
+    {
+      "id": "S8",
+      "cat": "supported",
+      "top": [
+        "orchestration",
+        "persistence_and_human_review",
+        "frameworks",
+        "multi_agent_coordination",
+        "pricing_and_deployment"
+      ],
+      "retrievalHit": true,
+      "canFlagConflict": false,
+      "canAbstain": false
+    },
+    {
+      "id": "C1",
+      "cat": "conflict",
+      "top": [
+        "migration",
+        "frameworks",
+        "framework_selection/microsoft_ecosystem",
+        "multi_agent_coordination",
+        "framework_selection/typescript_ui_stack"
+      ],
+      "retrievalHit": true,
+      "canFlagConflict": false,
+      "canAbstain": false
+    },
+    {
+      "id": "C2",
+      "cat": "conflict",
+      "top": [
+        "frameworks",
+        "migration",
+        "framework_selection/microsoft_ecosystem",
+        "persistence_and_human_review",
+        "pricing_and_deployment"
+      ],
+      "retrievalHit": true,
+      "canFlagConflict": false,
+      "canAbstain": false
+    },
+    {
+      "id": "C3",
+      "cat": "conflict",
+      "top": [
+        "framework_selection/microsoft_ecosystem",
+        "migration",
+        "frameworks",
+        "multi_agent_coordination",
+        "framework_selection/typescript_ui_stack"
+      ],
+      "retrievalHit": true,
+      "canFlagConflict": false,
+      "canAbstain": false
+    },
+    {
+      "id": "C4",
+      "cat": "conflict",
+      "top": [
+        "framework_selection/microsoft_ecosystem",
+        "migration",
+        "frameworks",
+        "multi_agent_coordination",
+        "persistence_and_human_review"
+      ],
+      "retrievalHit": true,
+      "canFlagConflict": false,
+      "canAbstain": false
+    },
+    {
+      "id": "C5",
+      "cat": "conflict",
+      "top": [
+        "framework_selection/microsoft_ecosystem",
+        "frameworks",
+        "migration",
+        "multi_agent_coordination",
+        "pricing_and_deployment"
+      ],
+      "retrievalHit": true,
+      "canFlagConflict": false,
+      "canAbstain": false
+    },
+    {
+      "id": "C6",
+      "cat": "conflict",
+      "top": [
+        "frameworks",
+        "migration",
+        "framework_selection/microsoft_ecosystem",
+        "persistence_and_human_review",
+        "multi_agent_coordination"
+      ],
+      "retrievalHit": true,
+      "canFlagConflict": false,
+      "canAbstain": false
+    },
+    {
+      "id": "U1",
+      "cat": "unsupported",
+      "top": [
+        "pricing_and_deployment",
+        "orchestration",
+        "frameworks",
+        "multi_agent_coordination",
+        "persistence_and_human_review"
+      ],
+      "retrievalHit": null,
+      "canFlagConflict": false,
+      "canAbstain": false
+    },
+    {
+      "id": "U2",
+      "cat": "unsupported",
+      "top": [
+        "frameworks",
+        "framework_selection/microsoft_ecosystem",
+        "persistence_and_human_review",
+        "migration",
+        "orchestration"
+      ],
+      "retrievalHit": null,
+      "canFlagConflict": false,
+      "canAbstain": false
+    },
+    {
+      "id": "U3",
+      "cat": "unsupported",
+      "top": [
+        "persistence_and_human_review",
+        "frameworks",
+        "framework_selection/microsoft_ecosystem",
+        "multi_agent_coordination",
+        "migration"
+      ],
+      "retrievalHit": null,
+      "canFlagConflict": false,
+      "canAbstain": false
+    },
+    {
+      "id": "U4",
+      "cat": "unsupported",
+      "top": [
+        "frameworks",
+        "persistence_and_human_review",
+        "multi_agent_coordination",
+        "migration",
+        "pricing_and_deployment"
+      ],
+      "retrievalHit": null,
+      "canFlagConflict": false,
+      "canAbstain": false
+    },
+    {
+      "id": "X1",
+      "cat": "adversarial",
+      "top": [
+        "framework_selection/microsoft_ecosystem",
+        "frameworks",
+        "persistence_and_human_review",
+        "framework_selection/typescript_ui_stack",
+        "pricing_and_deployment"
+      ],
+      "retrievalHit": null,
+      "canFlagConflict": false,
+      "canAbstain": false
+    },
+    {
+      "id": "X2",
+      "cat": "adversarial",
+      "top": [
+        "pricing_and_deployment",
+        "frameworks",
+        "persistence_and_human_review",
+        "framework_selection/microsoft_ecosystem",
+        "migration"
+      ],
+      "retrievalHit": null,
+      "canFlagConflict": false,
+      "canAbstain": false
+    },
+    {
+      "id": "X3",
+      "cat": "adversarial",
+      "top": [
+        "framework_selection/microsoft_ecosystem",
+        "persistence_and_human_review",
+        "pricing_and_deployment",
+        "multi_agent_coordination",
+        "orchestration"
+      ],
+      "retrievalHit": null,
+      "canFlagConflict": false,
+      "canAbstain": false
+    },
+    {
+      "id": "X6",
+      "cat": "adversarial",
+      "top": [
+        "frameworks",
+        "framework_selection/microsoft_ecosystem",
+        "migration",
+        "persistence_and_human_review",
+        "pricing_and_deployment"
+      ],
+      "retrievalHit": null,
+      "canFlagConflict": false,
+      "canAbstain": false
+    }
+  ]
+}
