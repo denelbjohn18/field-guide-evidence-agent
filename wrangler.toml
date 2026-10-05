@@ -1,0 +1,7 @@
+name = "field-guide-evidence-agent"
+main = "src/worker.js"
+compatibility_date = "2026-09-01"
+[vars]
+CONTEXT_MCP_URL = "https://api.sanity.io/v1/context/organizations/ow7ag3fuf/mcp/agent-framework-field-guide"
+OPENROUTER_MODELS = "nvidia/nemotron-3-super-120b-a12b:free"
+# Secrets (set with `wrangler secret put`): SANITY_ORG_TOKEN, OPENROUTER_API_KEY
